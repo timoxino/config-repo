@@ -7,15 +7,13 @@ spring:
         client:
           oidc-client:
             registration:
-              oidc-client:
-                client-id: "spring"
-                client-secret: "{noop}spring"
-                client-authentication-methods:
-                  - "client_secret_basic"
-                authorization-grant-types:
-                  - "authorization_code"
-                  - "refresh_token"
-                redirect-uri: "http://127.0.0.1:8081/login/oauth2/code/spring"
-                scopes:
-                  - "openid"
-                  - "profile"
+              client-id: "spring"
+              client-secret: "{noop}spring"
+              client-authentication-methods:
+                - "client_secret_basic"
+              authorization-grant-types:
+                - "authorization_code"
+                - "refresh_token"
+              scopes:
+                - "openid"
+                - "profile"
