@@ -7,3 +7,6 @@ spring:
         provider:
           spring:
             issuer-uri: "http://localhost:9090"
+        registration:
+          spring:
+            redirect-uri: "http://localhost:8081/login/oauth2/code/spring"

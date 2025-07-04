@@ -1,12 +1,7 @@
-server:
-  port: 8080
 spring:
   security:
     oauth2:
       client:
-        provider:
-          spring:
-            issuer-uri: "http://localhost:8080/auth-server/oauth2/default"
         registration:
           spring:
             provider: "spring"
@@ -14,5 +9,4 @@ spring:
             client-secret: "spring"
             authorization-grant-type: "authorization_code"
             client-authentication-method: "client_secret_basic"
-            redirect-uri: "{baseUrl}/login/oauth2/code/{registrationId}"
             scope: "openid"
