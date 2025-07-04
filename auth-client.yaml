@@ -4,6 +4,9 @@ spring:
   security:
     oauth2:
       client:
+        provider:
+          spring:
+            issuer-uri: "http://localhost:8080/auth-server/oauth2/default"
         registration:
           spring:
             provider: "spring"
