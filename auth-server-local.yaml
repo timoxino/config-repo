@@ -6,4 +6,4 @@ spring:
           oidc-client:
             registration:
               redirect-uris:
-                - "http://127.0.0.1:8081/login/oauth2/code/spring"
+                - "http://localhost:8081/login/oauth2/code/spring"
