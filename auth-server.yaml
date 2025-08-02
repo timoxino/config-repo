@@ -15,3 +15,7 @@ spring:
               scopes:
                 - "openid"
                 - "profile"
+logging:
+  level:
+    org.springframework.security: trace
+    org.springframework.web: trace
