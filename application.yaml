@@ -12,4 +12,4 @@ management:
       show-details: always
 logging:
   level:
-    org.springframework.security: DEBUG
+    org.springframework.security: trace

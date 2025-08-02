@@ -17,5 +17,4 @@ spring:
                 - "profile"
 logging:
   level:
-    org.springframework.security: trace
     org.springframework.web: trace
